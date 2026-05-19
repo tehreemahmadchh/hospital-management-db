@@ -44,15 +44,7 @@ It covers **18 fully normalized tables** across three domains:
 ---
 
 ## 🔗 Entity Relationship
-Patient ──< Encounter >── Doctor
-│
-┌─────────┼──────────┐
-Appointment  Admission  Emergency
-│
-┌─────────┼──────────┐
-Prescription  Test_Report  Billing
-│                        │
-Prescription_Medicine      Payment
+
 Full ERD (unresolved + normalized) available in `Documentation.pdf`
 
 ---
